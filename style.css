@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Unna&display=swap');
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  width: 100%;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+
+.container {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #E8F1F2;
+/*  padding: 12px 8px;*/
+  border-radius: 8px;
+  border: 1px black solid;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+body {
+  background-color: #FCFCFC;
+  color: #000000;
+  line-height: 1.2;
+  font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #102542;
+  font-weight: lighter;
+  font-family: 'Unna', serif;
+}
+
+h3 {
+  text-align: center;
+  color: #102542;
+  font-weight: lighter;
+}
+
+a {
+  color: #DB5461;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5D737E;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #aaaaaa;
+  opacity: 0.9;
+}
